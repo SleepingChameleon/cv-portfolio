@@ -32,7 +32,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="w-[500px] hidden bg-[#55e7a5] relative lg:flex items-center rounded-full h-[500px]">
-                <Image src="/images/profpic2.jpg" alt="user" layout="fill" className="object-cover rounded-full"/>
+                <Image src="/images/profpic2.jpg" alt="user" fill={true} className="object-cover rounded-full"/>
             </div>
         </div>
     </div>
