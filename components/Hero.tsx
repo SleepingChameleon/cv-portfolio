@@ -16,23 +16,23 @@ const Hero = () => {
                 </h1>
                 <TextEffect/>
                 <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-                    Lorem ipsum dolar sit amet consectetur adipisicing elit. Quasi, molestias! Sed iste enim accusamus veritatis vitae, doloribus
-                    aliquam et totam cumque, neque, quos in out.
+                I am a Web Designer, Technician, and Cybersecurity Specialist currently studying 
+                Computer Science in my 3rd year at Ateneo De Davao University. It has always been my dream to make a Robot.
                 </p>
                 <div className="px-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
                     <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] 
-                    font-bold uppercase bg-[#55e6b5] text-black flex items-center space-x-2 mt-5">
+                    font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2 mt-5">
                         <p> Download CV </p>
                         <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black"/>
                     </button>
                     <button className="flex items-center space-x-2">
-                        <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5] mt-5"/>
+                        <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-blue-400 mt-5"/>
                         <p className="text-[20px] font-semibold text-white mt-5">Watch the Video</p>
                     </button>
                 </div>
             </div>
-            <div className="w-[500px] hidden bg-[#55e7a5] relative lg:flex items-center rounded-full h-[500px]">
-                <Image src="/images/profpic2.jpg" alt="user" fill={true} className="object-cover rounded-full"/>
+            <div className="w-[450px] hidden bg-[#55e7a5] relative lg:flex items-center rounded-full h-[450px] left-[4rem]">
+                <Image src="/images/profpic.jpg" alt="user" fill={true} className="object-cover rounded-full"/>
             </div>
         </div>
     </div>

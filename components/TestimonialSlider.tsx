@@ -35,10 +35,10 @@ const TestimonialSlider = () => {
     itemClass="item">
 
         {/* ClientReview */}
-        <ClientReview image="/images/b.jpg" name="Aj Tollo" role="Graphic Engineer"/>
-        <ClientReview image="/images/a.jpg" name="Clyde Macabangon" role="UI Designer"/>
+        <ClientReview image="/images/b.jpg" name="Aj Tollo" role="Tesla CEO"/>
+        <ClientReview image="/images/a.jpg" name="Clyde Macabangon" role="DisneyLand CEO"/>
         <ClientReview image="/images/c.jpg" name="Dan Labrador" role="Quality Assurance Manager"/>
-        <ClientReview image="/images/d.jpg" name="Dwight Buma-at" role="Full Stack Developer"/>
+        <ClientReview image="/images/d.jpg" name="Dwight Buma-at" role="Gold Gym's CEO"/>
 
     </Carousel>
   )
