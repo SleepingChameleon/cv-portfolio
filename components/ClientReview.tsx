@@ -22,9 +22,9 @@ const ClientReview = ({ name, role, image }: Props) => {
         <h1 className="text-[25px] text-white mt-[1rem]">{name}</h1>
         <p className="text-[18px] text-white opacity-75 mt-[0.5rem] mb-[1.4rem]">{role}</p>
         <p className="text-[16px] text-white opacity-50 w-[90%] md:w-[50%] mx-auto">
-          "Working with Mr. Rey Larombe was a seamless experience. 
+        &quot;Working with Mr. Rey Larombe was a seamless experience. 
           Their expertise in both web development and photography resulted in a
-          website that perfectly showcases my work while being technically sound."
+          website that perfectly showcases my work while being technically sound.&quot;
         </p>
     </div>
   )
